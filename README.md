@@ -34,5 +34,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solutuon of calculate-age-challenge](https://www.frontendmentor.io/profile/Ziad-Nasser)
+- Solution URL: [Solutuon of calculate-age-challenge](https://www.frontendmentor.io/solutions/age-calculator-challenge-zDM80NZ_Lx)
 - Live Site URL: [calculate-age-challenge](https://age-calculator-challenge1.netlify.app)
