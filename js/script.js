@@ -103,8 +103,15 @@ function calculateMonth(tempMonth, tempYear) {
   return tempMonth - monthInput.value;
 }
 
-function calculateYear(tempYear) {
-  return tempYear - yearInput.value;
+function calculateYear(tempYear, tempMonth, tempDay) {
+  let year = tempYear - yearInput.value;
+  if (
+    monthInput.value > tempMonth ||
+    (monthInput.value == tempMonth && dayInput.value > tempDay)
+  ) {
+    year -= 1;
+  }
+  return year;
 }
 
 function animateValue(element, start, end, duration) {
@@ -129,7 +136,7 @@ function calculateAge() {
 
   const day = calculateDay(tempDay, tempMonth);
   const month = calculateMonth(tempMonth, tempYear);
-  const year = calculateYear(tempYear);
+  const year = calculateYear(tempYear, tempMonth, tempDay);
 
   dayResult.innerHTML = day;
   monthResult.innerHTML = month;
