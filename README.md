@@ -34,5 +34,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [calculate-age-challenge](https://your-solution-url.com)
+- Live Site URL: [calculate-age-challenge](https://age-calculator-challenge1.netlify.app)
